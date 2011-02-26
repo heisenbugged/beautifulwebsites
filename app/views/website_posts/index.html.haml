@@ -1,0 +1,20 @@
+-#= image_tag "featured.png", :id => "featured-text", :alt => "Featured Websites"
+#featured-text
+  %h1.title Featured Websites
+- index = 0
+- @website_posts.each do |website_post|
+  - index = index+1
+  - unless index % 3 == 0
+    .website
+      = link_to website_post.url do
+        = image_tag website_post.thumbnail.url(:medium)
+      %br/
+      %span.website-title= website_post.title
+  - else
+    .website-last
+      = link_to website_post.url do
+        = image_tag website_post.thumbnail.url(:medium)
+      %br/
+      %span.website-title= website_post.title
+.clear
+.more That's it for now!

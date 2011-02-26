@@ -1,0 +1,193 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+    color: #333;
+	background-image: url(../images/bg.gif);
+	background-repeat: repeat-x;
+    background-color: #fafafa;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1 { font-size: 30px; font-family: 'Ubuntu', "Lucida Grande", Arial, Helvetica, sans-serif; color: #333333;}
+.shaded-box {
+    border: 1px solid #cccccc;    
+
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    color: white;
+    background-color: #86b84d;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Ubuntu', "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 23px;
+
+    line-height: 24px;
+}
+.form-labels {
+    float: left;
+    line-height: 35px;
+    text-align: right;
+    margin-right: 10px;
+}
+.form-inputs {
+    float: left;
+    line-height: 35px;
+}
+.about {
+    margin-top: 15px;
+    font-family: Trebuchet MS, Tahoma, Geneva, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+}
+.about .small {
+    font-size: 13px;
+}
+.about p { margin-bottom: 18px; } 
+.main {
+	width: 900px;
+	margin: auto;
+}
+.top {
+	color: #ffffff;
+	height: 114px;
+}
+.content {
+	padding-top: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.submenu {
+	height: 30px;
+    line-height: 30px;
+    color: white;
+}
+.submenu a {
+    color: white;
+    text-decoration: none
+}
+/* images */
+#logo {
+	margin-top: 30px;
+}
+#featured-text {
+    margin-bottom: 30px;
+}
+.website, .website-last {
+    float: left;
+    padding-right: 31px;
+    padding-bottom: 29px;
+
+    width: 262px;
+    height: 193px;    
+}
+.website-last {
+    padding-right: 0px;
+}
+.website-title {    
+    font-size: 23px;
+    font-style: italic;
+    font-family: 'Ubuntu', "Lucida Grande", Arial, Helvetica, sans-serif;
+    background-color: #fafafa;
+    position: relative;
+    margin-top: -21px;
+    margin-right: -1px;
+    float: right;
+    width: auto;
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+    text-shadow: 0.05em 0.05em #cccccc;
+
+}
+.more, .submit-button {
+    border: 1px solid #cccccc;    
+
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+
+    background-color: #f6f6f6;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Ubuntu', "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+.submit-button {
+    float: right;
+}
+.footer {
+    margin-top: 30px;
+    border-top: 1px solid #cccccc;
+    padding-top: 5px;
+    font-variant: small-caps;
+    text-align: center;
+}
+.links { float: left; margin-top: 50px; margin-left: 30px; font-size: 15px;
+    font-family: Trebuchet MS, Tahoma, Geneva, sans-serif;
+}
+.links a { color: #fff; text-decoration: none; }
+.link a {
+    background-color: #929292;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;    
+    padding: 5px;
+}
+.link a.active {
+    background-color: #6f9148;
+}
+
+.clear { clear: both; }
+.left { float: left; }

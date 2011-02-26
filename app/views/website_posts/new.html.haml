@@ -1,0 +1,24 @@
+%h1(style="margin-bottom: 15px;") Give a Recommendation
+= simple_form_for @website_post, :html => {:multipart => true} do |f|
+  .left
+    .form-labels
+      Title (20 chars max): <br/>
+      URL: <br/>
+      Short Description:
+      %div{:style => "margin-top: 27px;" }
+        Thumbnail (optional):
+    .form-inputs
+      = f.input :title, :label => false
+      = f.input :url, :label => false
+      = f.text_area :description, :label => false, :style => "height: 40px; width: 271px;"
+      %br/
+      = f.file_field :thumbnail
+    .clear
+    = f.submit "Submit", :class => "submit-button"
+  .shaded-box.left{:style => "width: 390px; margin-left: 10px; text-align: justify; font-size: 20px;"}
+    Have a website you are dying for the world to see?
+    Submit it here and we will check it out!
+    <br/><br/>
+    As an added benefit we promise that you'll receive a life time subscription to
+    your favorite ponies and rainbows magazine.
+  .clear

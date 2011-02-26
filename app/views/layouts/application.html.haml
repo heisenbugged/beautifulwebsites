@@ -1,0 +1,26 @@
+!!!
+%html
+  %head
+    %title Beautiful Websites
+    = stylesheet_link_tag :all
+    = javascript_include_tag :defaults
+    = csrf_meta_tag
+    :plain
+      <link  href="http://fonts.googleapis.com/css?family=Ubuntu:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" >      
+  %body
+    .main
+      .top
+        .title.left
+          = link_to website_posts_url do
+            = image_tag "logo.png", :id => "logo", :alt =>"Beautiful Websites - Designing By Example"
+        .links
+          - highlight_current_link do |n|
+            %span.link= n.link_to "Home", website_posts_url
+            %span.link= n.link_to "Submit a Website", new_website_post_url
+            %span.link= n.link_to "Contact", '/contact'
+            %span.link= n.link_to "About Us", '/about'
+      .submenu
+      .content        
+        = yield
+
+      .footer footer text is extremely boring. you should not be reading this.
