@@ -11,16 +11,28 @@
     .main
       .top
         .title.left
-          = link_to website_posts_url do
+          = link_to root_url do
             = image_tag "logo.png", :id => "logo", :alt =>"Beautiful Websites - Designing By Example"
         .links
-          - highlight_current_link do |n|
-            %span.link= n.link_to "Home", website_posts_url
+          %span.link= link_to "Home", root_url
+          %span.link= link_to "Submit a Website", new_website_post_url
+          %span.link= link_to "Contact", '/contact'
+          %span.link= link_to "About Us", '/about'
+          -# highlight_current_link do |n|
+            %span.link= n.link_to "Home", root_url
             %span.link= n.link_to "Submit a Website", new_website_post_url
             %span.link= n.link_to "Contact", '/contact'
             %span.link= n.link_to "About Us", '/about'
+            - if admin_signed_in?
+              %span.link= n.link_to "Sign out", destroy_admin_session_path
+
       .submenu
-      .content        
+        &nbsp;
+
+      .content
+        %p.notice= notice
+        %p.alert= alert
+
         = yield
 
       .footer footer text is extremely boring. you should not be reading this.

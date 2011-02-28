@@ -176,6 +176,13 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] polyglot (v0.3.1, /Users/jstrong/.rvm/gems/ruby-1.9.2-p136@beautifulwebsites/gems/polyglot-0.3.1)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] arel (v2.0.8, /Users/jstrong/.rvm/gems/ruby-1.9.2-p136@beautifulwebsites/gems/arel-2.0.8)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] erubis (v2.6.6, /Users/jstrong/.rvm/gems/ruby-1.9.2-p136@beautifulwebsites/gems/erubis-2.6.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] mongoid-paperclip (v0.0.3, /Users/jstrong/.rvm/gems/ruby-1.9.2-p136@beautifulwebsites/gems/mongoid-paperclip-0.0.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] aws-s3 (v0.6.2, /Users/jstrong/.rvm/gems/ruby-1.9.2-p136@beautifulwebsites/gems/aws-s3-0.6.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] devise (v1.1.7, /Users/jstrong/.rvm/gems/ruby-1.9.2-p136@beautifulwebsites/gems/devise-1.1.7)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] warden (v1.0.3, /Users/jstrong/.rvm/gems/ruby-1.9.2-p136@beautifulwebsites/gems/warden-1.0.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] paperclip (v2.3.8, /Users/jstrong/.rvm/gems/ruby-1.9.2-p136@beautifulwebsites/gems/paperclip-2.3.8)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] xml-simple (v1.0.14, /Users/jstrong/.rvm/gems/ruby-1.9.2-p136@beautifulwebsites/gems/xml-simple-1.0.14)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] bcrypt-ruby (v2.1.4, /Users/jstrong/.rvm/gems/ruby-1.9.2-p136@beautifulwebsites/gems/bcrypt-ruby-2.1.4)" level="application" />
   </component>
 </module>
 

@@ -24,5 +24,7 @@ Beautifulwebsites::Application.configure do
   config.action_dispatch.best_standards_support = :builtin
 
   Paperclip.options[:command_path] = "/usr/local/bin/"
+
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 end
 
