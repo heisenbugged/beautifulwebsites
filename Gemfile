@@ -3,7 +3,7 @@ source :rubygems
 gem 'rails', '3.0.4'
 
 # Core Ext
-gem 'andand', :git => "git://github.com/raganwald/andand.git"
+#gem 'andand', :git => "git://github.com/raganwald/andand.git"
 
 # UI
 gem 'haml', '~> 3.0.21'
