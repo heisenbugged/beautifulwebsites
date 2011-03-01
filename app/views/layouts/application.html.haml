@@ -18,6 +18,9 @@
           %span.link= link_to "Submit a Website", new_website_post_url
           %span.link= link_to "Contact", '/contact'
           %span.link= link_to "About Us", '/about'
+          - if admin_signed_in?
+            %span.link= link_to "Sign out", destroy_admin_session_path
+
           -# highlight_current_link do |n|
             %span.link= n.link_to "Home", root_url
             %span.link= n.link_to "Submit a Website", new_website_post_url
